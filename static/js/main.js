@@ -14,7 +14,7 @@ function correct() {
         document.querySelector('#all_questions').innerHTML = "GAME OVER!";
         document.querySelector('#all_questions').classList.add("gameover"); 
     }
-    if (correctCount === 6) {
+    if (correctCount === 5) {
         document.querySelector('#all_questions').innerHTML = "YOU WIN!";
         document.querySelector('#all_questions').classList.add("gameover"); 
     }
